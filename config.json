@@ -1,7 +1,7 @@
 {
   "token" : "NTI3Nzg1MjQ1OTI4NTg3MjY3.DwYyEw.LV7CE2F3VfgmH_X8-qGh3pktEUI",
   "ms" : 1500,
-  "roleToDisco" : ["disco", "Rainbow"],
-  "prefix" : "d!",
+  "roleToDisco" : ["disco", "disco"],
+  "prefix" : "-",
   "allowedUsers" : ["408620940323192832", ""]
 }
