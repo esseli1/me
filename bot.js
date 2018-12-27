@@ -6,8 +6,8 @@ const allowedUsers = config.allowedUsers;
 const roles = config.roleToDisco;
 
 disco.on("ready", () => {
-    disco.user.setPresence({ game: { name: `Disco Roles! Created by i am n3k4a` }, type: 0 });
-    console.log("Disco role bot online! Created by i am toast.");
+    disco.user.setPresence({ game: { name: `Test` }, type: 0 });
+    console.log("Test.");
 });
 
 disco.on("message", message => {
@@ -15,7 +15,7 @@ disco.on("message", message => {
   function discoRole() {
     let random = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     roles.forEach((role) => {
-      let theRole = message.guild.roles.find("name", Disco);
+      let theRole = message.guild.roles.find("disco", Disco);
       theRole.edit({color: random}).catch(e => {
         return message.channel.send(":x: **Error:** The role you specified in the `config.json` is either not a role on this server, or his a role higher than the highest role that I have.");
       });
