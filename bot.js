@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const config = require('./config.json');
 const disco = new Discord.Client();
-const prefix = config.prefix;
+const prefix = -
 const allowedUsers = config.allowedUsers;
-const roles = config.roleToDisco;
+const roles = Disco
 
 disco.on("ready", () => {
     disco.user.setPresence({ game: { name: `Disco Roles! Created by i am 𝕄𝕠𝟛𝔾𝕫ℤ𝕒` }, type: 0 });
@@ -43,4 +43,4 @@ if(message.content.startsWith(prefix + "stopdisco")) {
 
 });
 
-disco.login(config.token);
+disco.login(NTI3Nzg1MjQ1OTI4NTg3MjY3.DwYyEw.LV7CE2F3VfgmH_X8-qGh3pktEUI);
