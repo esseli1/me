@@ -43,4 +43,4 @@ if(message.content.startsWith(prefix + "stopdisco")) {
 
 });
 
-disco.login(NTI3Nzg1MjQ1OTI4NTg3MjY3.DwYyEw.LV7CE2F3VfgmH_X8-qGh3pktEUI);
+disco.login(config.token);
